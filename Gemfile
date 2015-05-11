@@ -3,8 +3,11 @@ source "https://rubygems.org"
 
 gem "rails"
 
+gem 'mysql2'
+
 gem 'slim-rails'               # HTMLを簡潔に書ける
 # gem 'sass-rails'               # CSSを効率的に書ける
+gem 'therubyracer'
 gem 'less-rails'               # CSSを効率的に書ける
 # gem 'bootstrap-sass'           # Twitter Bootstrapが使える
 # gem 'compass-rails'            # Sassの機能拡張
