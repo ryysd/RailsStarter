@@ -42,10 +42,9 @@ then
 
   sh ${script_path}/install_react.sh
 else
-  mkdir front
-  cd front
-  git clone git@github.com:ysm001/basic-frontend-env.git .
-  rm -rf .git
+  # mkdir front
+  # cd front
+  # git clone git@github.com:ysm001/basic-frontend-env.git .
+  # rm -rf .git
+  # rm .gitignore
 fi
-
-vi config/database.yml
