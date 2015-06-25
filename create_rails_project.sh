@@ -41,4 +41,11 @@ then
   cp ${script_path}/react_files/app-routes.jsx app/assets/javascripts/app-routes.jsx
 
   sh ${script_path}/install_react.sh
+else
+  mkdir front
+  cd front
+  git clone git@github.com:ysm001/basic-frontend-env.git .
+  rm -rf .git
 fi
+
+vi config/database.yml
